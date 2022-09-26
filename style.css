@@ -37,8 +37,8 @@ body {
   display: block;
   border-top: 1px solid #BABABA;
 }
-#popup .button-holder a .negative {
-  color: rgb(255, 60, 0);
+#popup .button-holder  .negative {
+  color: rgb(255, 0, 0);
   
 }
 
