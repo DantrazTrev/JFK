@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400&display=swap');
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+ font-family: 'Prompt', sans-serif;
+ 
+}
+#popup {
+  width:20em;
+  z-index: 10px;
+  background:rgba(255,255,255,0.85);
+  border-radius: 8px;
+  margin:0 auto;
+  text-align: center;
+  box-sizing: border-box;
+  
+  position: absolute;
+  opacity: 0.6;
+}
+
+#popup h3 {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+#popup p {
+  margin: 8px;
+  padding: 0;
+}
+
+#popup .button-holder a {
+  color: #007AFF;
+  text-decoration: none;
+  line-height:45px;
+  font-weight:bold;
+  display: block;
+  border-top: 1px solid #BABABA;
+}
+#popup .button-holder a .negative {
+  color: rgb(255, 60, 0);
+  
+}
+
+#popup .two-button a{
+  width: 50%;
+  float: left;
+  box-sizing: border-box
+}
+
+#popup .two-button a:first-child {
+  border-right: 1px solid #BABABA
+}
