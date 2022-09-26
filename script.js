@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
   "use strict";
-  var bodyWidth = (document.body.clientWidth)
-  var bodyHeight = (document.body.clientHeight);
+  var bodyWidth = (window.innerWidth)
+  var bodyHeight = (window.innerHeight);
   
   var popup = $('#popup');
   var randPosX = Math.floor((Math.random()*0.6*bodyWidth));
